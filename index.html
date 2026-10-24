@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#24142f">
+  <title>هدية لهداية 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <main class="page">
+    <header class="top"><span class="tiny-cross">✦</span><p>هَدِيَّة صَغِيرَة لِشَخْص غَالِي 💜</p><span class="tiny-cross">✦</span></header>
+    <section class="intro">
+      <div class="medical-badge" aria-hidden="true"><span class="stethoscope">♧</span><span class="plus">✚</span></div>
+      <h1>إلى هداية <span>💜</span></h1>
+      <p class="subtitle">فيه هدية مستنياكي… افتحيها بنفسك</p>
+      <p class="hint">افتحي الصندوق، وشغّلي الأغنية، واقرئي الرسالة على راحتك ✨</p>
+    </section>
+
+    <button class="gift-scene" id="giftButton" type="button" aria-label="افتحي صندوق الهدية">
+      <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div><div class="spark spark-c">✦</div>
+      <div class="gift-shadow"></div>
+      <div class="gift-box" id="giftBox">
+        <div class="box-body"><div class="box-front-shine"></div><div class="ribbon ribbon-vertical"></div><div class="ribbon ribbon-horizontal"></div><div class="heart-seal">♡</div><div class="box-front-label">لِهَدايَة</div></div>
+        <div class="box-lid" id="giftLid"><div class="lid-top"><div class="lid-shine"></div><div class="bow"><span class="bow-loop bow-left"></span><span class="bow-loop bow-right"></span><span class="bow-knot"></span><span class="bow-tail tail-left"></span><span class="bow-tail tail-right"></span></div></div><div class="lid-front"></div></div>
+        <div class="gift-glow"></div>
+      </div>
+    </button>
+    <div class="tap-label" id="tapLabel">اضغطي هنا وافتحي الهدية 🎁</div>
+
+    <section class="surprise" id="surprise" hidden>
+      <div class="record-area">
+        <div class="romantic-song-reminder">لما تشغلي اغنيه شغلي اغنيه رومانسيه اوي اوي اوي بعد اذنك 😂</div>
+        <div class="record-caption">أغنية مخصوصة للحظة دي 🎶</div>
+        <div class="record-player">
+          <div class="record" id="record">
+            <div class="record-grooves"></div>
+            <div class="record-label"><span>H</span><small>FOR HEDAYA</small></div>
+            <div class="record-hole"></div>
+          </div>
+          <div class="tonearm"><div class="tonearm-head"></div></div>
+        </div>
+        <div class="music-status" id="musicStatus">اختاري الأغنية من الزر علشان تبدأ الأسطوانة تلف 💿</div>
+        <div class="music-controls">
+          <label class="music-upload" for="songFile"><span>＋</span> اختاري أغنية من جهازك</label>
+          <input id="songFile" type="file" accept="audio/*">
+          <button class="music-button" id="playButton" type="button">▶ تشغيل الأغنية</button>
+          <button class="music-button secondary" id="pauseButton" type="button" disabled>Ⅱ إيقاف مؤقت</button>
+        </div>
+        <p class="music-note">الأغنية بتفضل شغّالة وإنتِ بتقرئي الرسالة. اختاري ملف MP3 من جهازك؛ مش لازم ترفعيه في الموقع.</p>
+      </div>
+
+      <section class="letter" id="letter" aria-live="polite">
+        <div class="letter-top">رسالة مخصوص ليكي <span>💌</span></div>
+        <div class="letter-content">
+          <h2>يا هداية، يا أجمل روح 💜</h2>
+          <p>حبيت أعملك الهدية دي علشان أقولك إنك شخص مميز وغالي، وإن وجودك له معنى حلو.</p>
+          <p>أنا بحبك يا هداية، وبحب فيكي روحك وشخصيتك، وبتمنا لك من قلبي كل خير وفرحة ونجاح.</p>
+          <p>إن شاء الله أشوفك بتحققي حلمك وبتبقي الدكتورة اللي نفسك تكونيها، وتفضلي دايمًا فخورة بنفسك وبكل خطوة بتاخديها.</p>
+          <p class="final-line">بحبك يا هداية ❤️</p><p class="signature">— مارو</p>
+        </div>
+        <div class="letter-footer">ربنا يفرّح قلبك ويكتبلك كل اللي بتتمنيه ✨</div>
+      </section>
+    </section>
+    <footer>اتعملت بكل حب مخصوص علشانك <span>💜</span></footer>
+  </main>
+  <audio id="song" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
